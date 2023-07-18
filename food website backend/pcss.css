@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  
+  margin: 0;
+  padding: 50px;
+  background-color:light gray;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.left {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.left h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.left form {
+  margin-bottom: 20px;
+}
+
+.left form input[type="text"],
+.left form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.right {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  
+}
+
+.right h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.right .payment-section {
+  margin-bottom: 20px;
+}
+
+.right .payment-section label,
+.right .payment-section input[type="text"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.right .payment-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.qr-code {
+  text-align: center;
+}
+
+.qr-code h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#qrcode {
+  margin: 20px auto;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.qr-code {
+  text-align: center;
+}
+
+#qrcode {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
